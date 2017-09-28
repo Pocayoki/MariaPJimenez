@@ -50,3 +50,22 @@ p {
 	font-size: 16px;
 	line-height: 25px;
 }
+
+li {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul.experience {
+  list-style: none;
+  padding-left: 0;
+}
+
+.experience img {
+  margin-left: 0;
+}
