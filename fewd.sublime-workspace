@@ -3,18 +3,162 @@
 	{
 		"selected_items":
 		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"siz",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"b",
+				"benefits"
+			],
+			[
+				"te",
+				"testimonial"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"header",
+				"header_bg"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bo",
+				"border-image"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"borde",
+				"border-style"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"FON",
+				"font-style"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "01/ga-press-release/index.html",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -44,6 +188,26 @@
 	},
 	"file_history":
 	[
+		"/Users/mjimenez/Sites/MariaPJimenez/04/starter_code/layout_challenge/style.css",
+		"/Users/mjimenez/Sites/MariaPJimenez/04/starter_code/layout_challenge/index.html",
+		"/Users/mjimenez/Sites/MariaPJimenez/04/starter_code/layout_challenge/layouts.pdf",
+		"/Users/mjimenez/Sites/MariaPJimenez/04/starter_code/error_message/README.md",
+		"/Users/mjimenez/Sites/MariaPJimenez/04/starter_code/error_message/css/style.css",
+		"/Users/mjimenez/Sites/MariaPJimenez/04/starter_code/error_message/index.html",
+		"/Users/mjimenez/Sites/MariaPJimenez/03/homework/css/style.css",
+		"/Users/mjimenez/Sites/MariaPJimenez/03/homework/index.html",
+		"/Users/mjimenez/Sites/MariaPJimenez/03/nested_selectors/index.html",
+		"/Users/mjimenez/Sites/MariaPJimenez/03/tags_boxes/index.html",
+		"/Users/mjimenez/Sites/MariaPJimenez/02/Resume/index.html",
+		"/Users/mjimenez/Sites/MariaPJimenez/01/ga-press-release/index.html",
+		"/Users/mjimenez/Sites/MariaPJimenez/01/cookie recipe/index.html",
+		"/Users/mjimenez/Sites/MariaPJimenez/03/nested_selectors/css/style.css",
+		"/Users/mjimenez/Sites/MariaPJimenez/03/tags_boxes/css/style.css",
+		"/Users/mjimenez/Sites/MariaPJimenez/02/Resume/css/style1.css",
+		"/Users/mjimenez/Sites/MariaPJimenez/02/Resume/css/style.css",
+		"/Users/mjimenez/Sites/MariaPJimenez/02/Resume/portfolio.html",
+		"/Users/mjimenez/Sites/MariaPJimenez/02/cookie recipe/css/style.css",
+		"/Users/mjimenez/Sites/MariaPJimenez/02/cookie recipe/index.html",
 		"/Users/mjimenez/Desktop/index.html",
 		"/Users/mjimenez/Desktop/<h1>HELLO WORLD!<:h1>"
 	],
@@ -80,35 +244,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "01/ga-press-release/index.html",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -129,11 +271,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -168,6 +317,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 231.0,
+	"side_bar_width": 254.0,
 	"status_bar_visible": true
 }

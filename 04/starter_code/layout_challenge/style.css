@@ -1,0 +1,33 @@
+#twoColumn header,
+#twoColumn aside,
+#twoColumn footer,
+#twoColumn section{
+background-color: grey;
+min-height: 100px;
+/*order:; 1px solid black;*/
+}
+
+#twoColumn header{
+	margin-bottom: 15px;
+}
+
+#twoColumn footer{
+	margin-top: 15px;
+	clear: both;
+}
+
+#twoColumn section{
+	float: left;
+	width: 75%;
+}
+
+#twoColumn aside{
+	width: 25%;
+	float: left;
+}
+
+#twoColumn .floats{
+	height: 1px;
+}
+
+
