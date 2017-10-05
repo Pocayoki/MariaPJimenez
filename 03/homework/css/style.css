@@ -144,7 +144,7 @@ header button{
   font-style: Italic;
 }
 
-#testimonial h3{
+#testimonial cite{
   color: white;
   font-weight: semibold;
 }
@@ -157,7 +157,7 @@ header button{
 
 #sign button{
   color: white;
-  font-family: Open Sans; Sans serif;
+  font-family: Open Sans; 
   font-size: 12px;
   font-weight: extrabold;
   background-color: #033048;
@@ -168,7 +168,7 @@ header button{
 }
 
 #footer{
-  font-family: Open Sans; Sans serif;
+  font-family: Open Sans;
   text-align: center;
   background-color: #121212;
   color: white;
@@ -188,10 +188,15 @@ header button{
   font-weight: semibold;
 }
 
-#footer img{
-  padding-top: 10px;
-  vertical-align: center;
+#footer img.twtr, 
+#footer img.fb{
+  max-width: 30px;
+  max-height: 30px;
+  padding: 5px;
 }
+
+
+
 
 
 
