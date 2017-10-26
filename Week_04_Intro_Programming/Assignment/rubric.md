@@ -10,7 +10,7 @@ The team from Relaxr is back...again! They want their page to be more interactiv
 
 Student: Maria Jimenez
 
-Project URL: https://github.com/Pocayoki/MariaPJimenez/tree/master/08_intro_javascript/Assignment%20copy/starter_code
+Project URL: https://github.com/Pocayoki/MariaPJimenez/tree/master/Week_04_Intro_Programming/Assignment
 
 |                                                                                                                                                                                                                     |                                |                        |                          |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------------------|--------------------------|
