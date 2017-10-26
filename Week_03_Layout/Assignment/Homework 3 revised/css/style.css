@@ -1,0 +1,236 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800');*/ 
+ 
+/* Box Model Hack */ 
+* { 
+     margin: 0; 
+     padding: 0; 
+     box-sizing: border-box; 
+} 
+
+#container{ 
+  overflow: hidden; 
+  font-family: "Open Sans"; 
+  width: 1000px; 
+  max-width: 100%; 
+  margin: auto; 
+} 
+ 
+header{ 
+  overflow: hidden; 
+  background-color: #033048; 
+  min-height: 50px; 
+} 
+ 
+header h1{ 
+  float: left; 
+  font-size: 24px; 
+  color: #f9e42e; 
+  font-weight: 600; 
+  margin-top: 20px; 
+  margin-left: 40px; 
+  margin-bottom: 20px; 
+} 
+ 
+h1:hover{ 
+  color: white; 
+} 
+ 
+header nav{ 
+  float: right; 
+  margin-right: 40px; 
+  margin-top: 25px; 
+  color: #F9e42e; 
+} 
+ 
+header nav ul li{ 
+  margin-right: 15px; 
+  list-style: none; 
+  float: left; 
+} 
+ 
+header nav ul li:hover{ 
+  color: white; 
+} 
+ 
+#content{ 
+  overflow: hidden; 
+  background-color: #f0efef; 
+  min-height: 1000px; 
+} 
+ 
+section{ 
+  float: left; 
+  width: 700px; 
+  max-width: 100%; 
+  margin-right: 20px; 
+  margin-left: 30px; 
+} 
+ 
+#content section h2{ 
+  font-size: 40px; 
+  font-weight: 600; 
+  color: #033048; 
+  margin-top: 40px; 
+} 
+ 
+#content #img1{ 
+  background: url(../images/blog_photo1.jpg); 
+  min-height: 200px; 
+  margin-top: 15px; 
+  margin-bottom: 15px; 
+} 
+ 
+section p{ 
+  font-size: 24px; 
+  font-weight: 300; 
+  color: #606161; 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+} 
+ 
+h4{ 
+  float: right; 
+  font-size: 24px; 
+  font-weight: 600; 
+  color: #033048; 
+  margin-bottom: auto; 
+} 
+ 
+h4:hover{ 
+  font-weight: 700; 
+  background-color: #f9e42e; 
+} 
+ 
+hr { 
+  display: block; 
+    margin-top: 45px; 
+    margin-bottom: 45px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: inset; 
+    border-width: 1px; 
+  color: #033048; 
+} 
+ 
+span{ 
+  float: left; 
+    width: 50px; 
+    font-size: 300%; 
+    font-family: "Open Sans"; 
+    line-height: 80%; 
+} 
+ 
+#content #img2{ 
+  background: url(../images/blog_photo2.jpg); 
+  min-height: 200px; 
+  margin-top: 15px; 
+  margin-bottom: 15px; 
+} 
+ 
+#content aside{ 
+  float: right; 
+  width: 240px; 
+  max-width: 100%; 
+  margin-top: 40px; 
+  color: #033048; 
+} 
+ 
+aside h3{ 
+  font-size: 32px; 
+  font-weight: 800; 
+  margin-bottom: 20px; 
+} 
+ 
+aside ul{ 
+  line-height: 20px; 
+  margin-top: 10px; 
+  margin-bottom: 20px;  
+} 
+
+aside ul li:hover{ 
+  font-weight: 700; 
+} 
+ 
+aside p{ 
+  font-size: 22px; 
+  font-weight: 300; 
+} 
+ 
+aside h4{ 
+  float: right; 
+  font-size: 22px; 
+  font-weight: 600; 
+  margin-top: 15px; 
+  margin-right: 10px; 
+} 
+ 
+aside #img3{ 
+background: url(../images/ad-unit.png) no-repeat center center; 
+width: 180px; 
+min-height: 500px; 
+margin-top: 50px; 
+margin-left: 20px; 
+} 
+ 
+#signUp{ 
+  overflow: hidden; 
+    background-color: #f9e42e; 
+    text-align: center; 
+    height: 40px; 
+} 
+ 
+#signUp button{ 
+  color: white; 
+  font-family: "Open Sans";  
+  font-size: 12px; 
+  font-weight: 800; 
+  background-color: #033048; 
+  border-radius: 5px; 
+  border-style: solid; 
+  border-color: #033048; 
+  margin-top: 8px; 
+  } 
+ 
+  #signUp button:hover{ 
+    color: #f9e42e; 
+  } 
+ 
+footer { 
+  overflow: hidden; 
+  background-color: #121212 
+} 
+ 
+footer{ 
+  font-family: "Open Sans"; 
+  text-align: center; 
+  background-color: #121212; 
+  color: white; 
+  padding: 25px; 
+} 
+ 
+footer h1{ 
+  color: #f9e42e; 
+  font-size: 24px; 
+  font-weight: 800; 
+  padding-bottom: 15px; 
+} 
+ 
+footer h5{ 
+  padding-top: 30px; 
+  font-size: 9px; 
+  font-weight: 600; 
+} 
+ 
+footer img.twtr, 
+footer img.fb{ 
+  color: white; 
+    min-height: 10px; 
+    min-width: 10px; 
+    padding: 20px; 
+} 
+ 
+footer img:hover{ 
+  background-color: #033048; 
+} 
+ 

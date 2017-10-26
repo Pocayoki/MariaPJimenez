@@ -1,0 +1,74 @@
+body {
+2
+  margin: 3em;
+3
+  padding: 0;
+4
+  font-family: sans-serif;
+5
+  font-size: 18px;
+6
+  line-height: 1.5;
+7
+}
+8
+9
+h1 {
+10
+  line-height: 1.25;
+11
+  margin: 2em 0 0;
+12
+}
+13
+p {
+14
+  margin: .5em 0;
+15
+}
+16
+17
+#switcher {
+18
+  list-style: none;
+19
+  margin: 0;
+20
+  padding: 0;
+21
+  overflow: hidden;
+22
+}
+23
+#switcher li {
+24
+  float: left;
+25
+  width: 30px;
+26
+  height: 30px;
+27
+  margin: 0 15px 15px 0;
+28
+  border-radius: 30px;
+29
+  border: 3px solid black;
+30
+}
+31
+32
+#grayButton {
+33
+  background: gray;
+34
+}
+35
+#whiteButton {
+36
+  background: white;
+37
+}
+5 file changes in working directory
+View changes
+commit:edda13
+WIP on master: Auto stash before merge of "master" and "origin/master"
