@@ -1,9 +1,20 @@
 body {
+2
   font-family: sans-serif;
+3
   margin: 3em;
+4
   padding: 0;
+5
 }
-
+6
+7
 #result {
+8
   color: green;
+9
 }
+23 file changes in working directory
+View changes
+commit:edda13
+WIP on master: Auto stash before merge of "master" and "origin/master"

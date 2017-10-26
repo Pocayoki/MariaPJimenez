@@ -1,8 +1,18 @@
 #container {
+2
   max-width: 1000px;
+3
   margin: auto;
+4
 }
-
+5
+6
 header {
+7
   padding: 30px;
+8
 }
+14 file changes in working directory
+View changes
+commit:edda13
+WIP on master: Auto stash before merge of "master" and "origin/master"

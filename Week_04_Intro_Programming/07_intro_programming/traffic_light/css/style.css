@@ -1,37 +1,73 @@
 body {
+2
   font-family: sans-serif;
+3
 }
-
+4
+5
 #controlPanel {
+6
   float: left;
+7
   padding-top: 30px;
+8
 }
-
+9
+10
 .button {
+11
   background-color: gray;
+12
   color: white;
+13
   border-radius: 10px;
+14
   padding: 20px;
+15
   text-align: center;
+16
   margin: 90px 40px;
+17
   cursor: pointer;
+18
 }
-
+19
+20
 #traffic-light {
+21
   height: 550px;
+22
   width: 200px;
+23
   float: left;
+24
   background-color: #333;
+25
   border-radius: 40px;
+26
   margin: 30px 0;
+27
   padding: 20px;
+28
 }
-
+29
+30
 .bulb {
+31
   height: 150px;
+32
   width: 150px;
+33
   background-color: #111;
+34
   border-radius: 50%;
+35
   margin: 25px auto;
+36
   transition: background 500ms;
+37
 }
+10 file changes in working directory
+View changes
+commit:edda13
+WIP on master: Auto stash before merge of "master" and "origin/master"

@@ -1,51 +1,89 @@
 body {
+2
   font-family: Helvetica, Arial, sans-serif;
+3
 }
-
+4
+5
 header{
+6
   background: rgba(204, 204, 204, 5);
+7
   text-align: center;
+8
   margin: auto;
+9
   padding: 15px;
+10
 }
-
+11
+12
 .actions{
+13
   display: inline-block;
+14
   border: 2px solid black;
+15
   padding: 15px 30px;
+16
   margin: auto;
+17
   color: black;
+18
   text-decoration: none;
+19
   text-transform: uppercase;
+20
   border-radius: 5px;
+21
   letter-spacing: 2px;
+22
   word-spacing: 10px;
+23
   font-weight: bold;
+24
   cursor: pointer;
+25
 }
-
-
+26
+27
+28
 .wrapper {
+29
   width: 600px;
+30
   margin: 0 auto;
+31
 }
-
+32
+33
 h1, h3 {
+34
   text-align: center;
+35
 }
-
+36
+37
 h1 {
+38
   margin: 10px 0;
+39
 }
-
+40
+41
 h3 {
+42
   margin: 0;
+43
   text-transform: uppercase;
+44
   font-size: 12px;
+45
   letter-spacing: 1px;
+46
 }
-
-dt {
-  font-weight: bold;
-}
-
+47
+17 file changes in working directory
+View changes
+commit:edda13
+WIP on master: Auto stash before merge of "master" and "origin/master"
