@@ -14,6 +14,7 @@ $(document).ready(function(){
 
 	for (var i=0;i<city.length;i++){
    $('<option/>').val(city[i]).text(city[i]).appendTo('#city-type');
+
 }
 	
 	//test - practice
@@ -25,7 +26,6 @@ $(document).ready(function(){
 	
 	$('#city-type').change(function(){
 	var city = $("#city-type option:selected").val();
-
 	
 
 	if (city == "NYC"){
@@ -50,6 +50,9 @@ $(document).ready(function(){
 	else if (city == "SYD"){
 	$('body').addClass('sydney');
 	}
+
+	$('option').removeAttr("selected");
+	// $("form").trigger("reset");
 
 	})
 	
