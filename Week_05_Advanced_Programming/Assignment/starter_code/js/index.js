@@ -12,7 +12,7 @@ $(document).ready(function(){
 	$("#submit-btn").click(function(event){
 	event.preventDefault();
 	var userCity = $('#city-type').val();
-	console.log(userCity);
+	
 
 	if (userCity == "NYC" || userCity == "New York City" || userCity == "New York"){
 		$('body').addClass('nyc');
@@ -36,6 +36,8 @@ $(document).ready(function(){
 	else if (userCity == "Sydney" || userCity == "SYD"){
 		$('body').addClass('sydney');
 	}
+
+	$("form").trigger("reset");
 
 	})
 	
