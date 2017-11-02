@@ -8,10 +8,8 @@
 
 $(document).ready(function(){
 	
+	
 	var city = ["ATX", "LA", "NYC", "SF", "SYD"];
-	// var i = [0];
-	// var city = $('#city-type').val();
-
 	for (var i=0;i<city.length;i++){
    $('<option/>').val(city[i]).text(city[i]).appendTo('#city-type');
 
@@ -28,7 +26,15 @@ $(document).ready(function(){
 	var city = $("#city-type option:selected").val();
 	
 
-	if (city == "NYC"){
+	if (city == "ATX"){
+	$('body').addClass('austin');
+	}
+
+	else if (city == "LA"){
+	$('body').addClass('la');
+	}
+
+	else if (city == "NYC"){
 	$('body').addClass('nyc');
 	}
 
@@ -36,25 +42,14 @@ $(document).ready(function(){
 	$('body').addClass('sf');
 	}
 
-
-	else if (city == "LA"){
-	$('body').addClass('la');
-	}
-
-
-	else if (city == "ATX"){
-	$('body').addClass('austin');
-	}
-
-
 	else if (city == "SYD"){
 	$('body').addClass('sydney');
 	}
 
-	$('option').removeAttr("selected");
-	// $("form").trigger("reset");
 
 	})
+
+
 	
 })
 
