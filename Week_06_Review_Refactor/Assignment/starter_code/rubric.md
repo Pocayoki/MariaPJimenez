@@ -21,5 +21,5 @@ Project URL: __https://github.com/Pocayoki/MariaPJimenez/tree/master/Week_06_Rev
 | Use the ```$.attr() OR $.class() ``` function to update html classes    |   |   |  X  |
 | Get the value of user input using ```$.val()```   |   |   | X  |
 | Use ```if/else if/else ``` conditionals to control the flow of your application   |   |   |  X |
-| Display your pseudocode as Javascript comments   | X  |   |   |
-| TOTAL: ___12___/14                                                                                                                                                                                       |                                |                        |                          |
+| Display your pseudocode as Javascript comments   |   |   |  X |
+| TOTAL: ___14___/14                                                                                                                                                                                       |                                |                        |                          |
