@@ -96,6 +96,38 @@ header nav ul li a {
   color: #f9e42e;
 }
 
+input,
+select{
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid black;
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+input,
+select,
+label{
+  display: inline-block;
+  max-width: 300px;
+  width: 100%;
+  font-family: "Open Sans";
+  font-size: 22px;
+}
+
+span{
+  font-size: 22px;
+  font-family: "Open Sans";
+}
+
+h2 {
+  font-size: 48px;
+  text-align: left;
+  color: gray;
+  margin-bottom: 30px;
+
+
+
 #hero {
   height: 700px;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
@@ -105,12 +137,8 @@ header nav ul li a {
 #hero .logo {
   color: #fff;
 }
-#hero h2 {
-  font-size: 48px;
-  text-align: center;
-  color: #fff;
-  margin: 120px 0 90px;
-  font-weight: 600;
+
+
 }
 .button {
   border-radius: 5px;
@@ -289,7 +317,7 @@ footer p {
   font-weight: 600;
 }
 #register {
-  width: 70%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {

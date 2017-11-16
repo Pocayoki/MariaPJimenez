@@ -59,8 +59,11 @@ body {
 
 /* Center the container */
 #container {
-	width: 960px;
+     vertical-align: center;
+	width: 500px;
 	margin: auto;
+     border: solid;
+
 }
 
 header {

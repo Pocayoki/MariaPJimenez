@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Form Contact</title>
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+
+
+<form action="">
+	
+		<h5>Register Now!</h5>
+
+		<div class="form-row">
+          <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="" id="name"></input> 
+      </div>
+
+      <div class="form-row">
+          <label for="email">Email:</label>
+            <input type="text" id="email" name="email" data-trigger="change" data-required="true" data-type="email"></input>   
+      </div>  
+
+      <div class="form-row">
+          <label for="phone">Phone Number:</label>
+            <input type="text" name="phone" class="phone" maxlength="10" id="phone"></input>
+      </div> 
+
+      <div class="form-row">
+          <label for="state">State:</label>
+            <select id="state-type">
+              <option>Select your state</option>
+              <option value="AL">ALABAMA</option>
+              <option value="FLA">FLORIDA</option>
+              <option value="GA">GEORGIA</option>
+              <option value="TN">TENNESSEE</option>
+              <option value="LA">LOUISIANA</option> 
+            </select>
+      </div>
+
+      <div class="form-row">
+          <label for="userId">User Name:</label>
+            <input type="text" name="userid"></input>
+          <label for="pwd">Password:</label>
+            <input type="password" name="psw"></input>
+      </div> 
+
+      <div class="form-row">
+          <label for="which-service">Which service are you interested in?</label>
+          <input type="radio" name="service" value="Relaxing"> Relaxing
+          <input type="radio" name="service" value="Email"> Email
+          <input type="radio" name="service" value="Phone"> Phone
+      </div>
+
+      <div class="form-row">
+          <input type="checkbox" name="terms" value="terms"> I agree to the terms</input>
+      </div>
+
+      <div id="submit">  
+          <input type="submit" value="Register Now!">
+      </div>    
+		</div>
+
+	</div>
+	</form>
