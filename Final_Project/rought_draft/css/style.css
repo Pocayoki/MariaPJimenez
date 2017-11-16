@@ -1,0 +1,44 @@
+
+.header{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: gray;
+  padding: 15px 30px;
+  color: orange;
+}
+
+.boxContainers {
+  width: 175px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+.boxContainers .box {
+  height: 900px;
+}
+
+.boxContainers button {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+}
+
+.boxContainers .toggleBox {
+  background-color: black;
+}
+
+footer{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: gray;
+  padding: 15px 30px;
+  color: orange;
+  font-weight: bold;
+  font-size: 24px;
+}
