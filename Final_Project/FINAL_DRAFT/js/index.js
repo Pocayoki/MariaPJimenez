@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 // Animation for Building A
-	var clicked = true;
+	var clicked = true; //name clickedPopup
     $("#A").click(function(){
       if(clicked == true){
       	
@@ -13,9 +13,11 @@ $(document).ready(function(){
             zIndex: '100',
             opacity: '1'}, 'slow'); 
 
+//create variable clickedFlip -- replicating the structure of clickedPopup
+
 		$('html, body').animate({
     	scrollTop: 480}, 800);
-        clicked = false;
+        clicked = false; //name clickedPopup
       }
 
       else{

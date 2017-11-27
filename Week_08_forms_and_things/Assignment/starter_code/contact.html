@@ -1,72 +1,121 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
 
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  <title>Form Contact</title>
-  
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  
-</head>
+    <title>Relaxr Blog</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
 
 <body>
+  <header>
+      <div class="container">
+        <h1 class="logo">Relaxr</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
+  <div class="container">
 
-<form action="">
-	
-		<h5>Register Now!</h5>
+    <section id="contact">
+
+      <form action="">
+
+		        <h1>Send us a message</h1>
+            <h2>We usually reply within 1 business day</h2>
+            <h3>General Info</h3>
+
 
 		<div class="form-row">
-          <label for="name">Name:</label>
-            <input type="text" name="name" placeholder="" id="name"></input> 
+          <label for="name">Name*</label><br>
+            <input type="text" name="name" placeholder="John Smith" id="name"></input> 
       </div>
 
       <div class="form-row">
-          <label for="email">Email:</label>
-            <input type="text" id="email" name="email" data-trigger="change" data-required="true" data-type="email"></input>   
+          <label for="email">Email*</label><br>
+            <input type="text" id="email" name="email" placeholder="name@mydomain.com" data-trigger="change" data-required="true" data-type="email"></input>   
       </div>  
 
       <div class="form-row">
-          <label for="phone">Phone Number:</label>
-            <input type="text" name="phone" class="phone" maxlength="10" id="phone"></input>
+          <label for="company">Company</label><br>
+            <input type="text" name="phone" placeholder="Acme Inc." id="company"></input>
       </div> 
 
       <div class="form-row">
-          <label for="state">State:</label>
-            <select id="state-type">
-              <option>Select your state</option>
-              <option value="AL">ALABAMA</option>
-              <option value="FLA">FLORIDA</option>
-              <option value="GA">GEORGIA</option>
-              <option value="TN">TENNESSEE</option>
-              <option value="LA">LOUISIANA</option> 
-            </select>
-      </div>
-
-      <div class="form-row">
-          <label for="userId">User Name:</label>
-            <input type="text" name="userid"></input>
-          <label for="pwd">Password:</label>
-            <input type="password" name="psw"></input>
+          <label for="how">How did you hear about us?</label><br>
+            <input type="text" name="how" placeholder="Event" id="how"></input>
       </div> 
 
       <div class="form-row">
-          <label for="which-service">Which service are you interested in?</label>
-          <input type="radio" name="service" value="Relaxing"> Relaxing
-          <input type="radio" name="service" value="Email"> Email
-          <input type="radio" name="service" value="Phone"> Phone
+          <label for="which-service">What would you like to discuss?</label><br>
+          <input type="radio" name="service" value="Hiring"> Hiring Relaxr
+          <input type="radio" name="service" value="Joining"> Joining Relaxr
+          <input type="radio" name="service" value="Other"> Other
+      </div>
+
+      <h3>Project Info</h3>
+
+      <div class="form-row">
+          <label for="which-offering">Which of our offerings interest you?</label><br>
+          <input type="checkbox" name="offering" value="Schedule"> Schedule Meetings
+          <input type="checkbox" name="offering" value="Excel"> Excel Automation
+          <input type="checkbox" name="offering" value="Emails"> Respond Emails
+          <input type="checkbox" name="offering" value="AI"> AI Technology
+      </div>
+      
+      <div class="form-row">
+          <label for="what-problem">What is the problem you are trying to solve?</label><br>
+        <textarea name="message" rows="5" cols="120"></textarea>
       </div>
 
       <div class="form-row">
-          <input type="checkbox" name="terms" value="terms"> I agree to the terms</input>
+          <label for="what-hope">What do you hope our engagement will accomplish?</label><br>
+        <textarea name="message" rows="5" cols="120"></textarea>
+      </div>
+
+      <div class="form-row">
+          <label for="which-service">What is your budget range?</label><br>
+          <input type="radio" name="service" value="40"> less then $40k
+          <input type="radio" name="service" value="100"> $40k-$100k
+          <input type="radio" name="service" value="250"> $100k-$250k
+          <input type="radio" name="service" value="500"> $250k-$500
+          <input type="radio" name="service" value="500"> $500k+
       </div>
 
       <div id="submit">  
-          <input type="submit" value="Register Now!">
-      </div>    
-		</div>
+          <input type="button" value="Submit">
+      </div>  
+
+      
+    </form>
+    </section>
+      </div>
+    
+
+    <footer>
+      <h4 class="logo">Relaxr</h4>
+
+      <ul>
+        <li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+        <li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+      </ul>
+
+      <p class="copyright">Copyright 2015. Relaxr.</p>
+    </footer>
+  </body>
+</html>
 
 	</div>
 	</form>
