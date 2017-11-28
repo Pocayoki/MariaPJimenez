@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 // Animation for Building A
-	var clicked = true; //name clickedPopup
+	var clicked = true; 
     $("#A").click(function(){
       if(clicked == true){
       	
@@ -11,13 +11,14 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
-
-//create variable clickedFlip -- replicating the structure of clickedPopup
+            opacity: '1',
+        }, 'slow'); 
+                
+        $("#1").hide();
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
-        clicked = false; //name clickedPopup
+        clicked = false; 
       }
 
       else{
@@ -27,7 +28,10 @@ $(document).ready(function(){
         	width: '200px',
             height: '200px',
             zIndex: '0',
-        }, 'slow');
+            }, 'slow');
+                
+      
+        $("#1").show();
 
     $('html, body').animate({
     scrollTop: 0}, 800);    
@@ -50,6 +54,8 @@ $(document).ready(function(){
             zIndex: '100',
             opacity: '1'}, 'slow'); 
 
+        $("#2").hide();
+
 		$('html, body').animate({
     	scrollTop: 480}, 800);
         clicked = false;
@@ -63,6 +69,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#2").show();
 
     $('html, body').animate({
     scrollTop: 0}, 800);    
@@ -83,7 +91,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#3").hide(); 
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -98,6 +108,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#3").show();
 
     $('html, body').animate({
     scrollTop: 0}, 800);    
@@ -117,7 +129,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#4").hide();      
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -132,6 +146,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#4").show();
 
     $('html, body').animate({
     scrollTop: 0}, 800);    
@@ -151,7 +167,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#5").hide();       
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -166,6 +184,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#5").show();
 
     $('html, body').animate({
     scrollTop: 0}, 800);    
@@ -186,7 +206,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#6").hide();       
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -201,6 +223,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#6").show();
 
     $('html, body').animate({
     scrollTop: 215}, 800);    
@@ -221,7 +245,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#7").hide();       
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -236,6 +262,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#7").show();
 
     $('html, body').animate({
     scrollTop: 215}, 800);    
@@ -256,7 +284,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#8").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -271,6 +301,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#8").show();
 
     $('html, body').animate({
     scrollTop: 215}, 800);    
@@ -291,7 +323,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#9").hide();      
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -306,6 +340,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#9").show();
 
     $('html, body').animate({
     scrollTop: 215}, 800);    
@@ -326,7 +362,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#10").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -341,6 +379,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#10").show();
 
     $('html, body').animate({
     scrollTop: 430}, 800);    
@@ -361,7 +401,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#11").hide();      
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -376,6 +418,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#11").show();
 
     $('html, body').animate({
     scrollTop: 430}, 800);    
@@ -396,7 +440,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#12").hide();      
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -411,6 +457,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#12").show();
 
     $('html, body').animate({
     scrollTop: 430}, 800);    
@@ -431,7 +479,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#13").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -446,6 +496,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#13").show();
 
     $('html, body').animate({
     scrollTop: 430}, 800);    
@@ -466,7 +518,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#14").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -481,6 +535,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '1',
         }, 'slow');
+
+        $("#14").show();
 
     $('html, body').animate({
     scrollTop: 645}, 800);    
@@ -501,7 +557,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#15").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -516,6 +574,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#15").show();
 
     $('html, body').animate({
     scrollTop: 645}, 800);    
@@ -536,7 +596,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#16").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -551,6 +613,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#16").show();
 
     $('html, body').animate({
     scrollTop: 645}, 800);    
@@ -571,7 +635,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#17").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -586,6 +652,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#17").show();
 
     $('html, body').animate({
     scrollTop: 645}, 800);    
@@ -606,7 +674,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#18").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -621,6 +691,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#18").show();
 
     $('html, body').animate({
     scrollTop: 860}, 800);    
@@ -641,7 +713,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#19").hide();      
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -656,6 +730,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#19").show();
 
     $('html, body').animate({
     scrollTop: 860}, 800);    
@@ -676,7 +752,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#20").hide();      
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -691,6 +769,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#20").show();
 
     $('html, body').animate({
     scrollTop: 860}, 800);    
@@ -711,7 +791,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#21").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -726,6 +808,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#21").show();
 
     $('html, body').animate({
     scrollTop: 860}, 800);    
@@ -746,7 +830,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#22").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -761,6 +847,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#22").show();
 
     $('html, body').animate({
     scrollTop: 1075}, 800);    
@@ -781,7 +869,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#23").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -796,6 +886,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#23").show();
 
     $('html, body').animate({
     scrollTop: 1075}, 800);    
@@ -816,7 +908,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#24").hide();      
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -831,6 +925,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#24").show();
 
     $('html, body').animate({
     scrollTop: 1075}, 800);    
@@ -851,7 +947,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#25").hide();     
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -866,6 +964,8 @@ $(document).ready(function(){
             height: '200px',
             zIndex: '0',
         }, 'slow');
+
+        $("#25").show();
 
     $('html, body').animate({
     scrollTop: 1075}, 800);    
@@ -886,7 +986,9 @@ $(document).ready(function(){
         	width: '400px',
             height: '700px',
             zIndex: '100',
-            opacity: '1'}, 'slow'); 
+            opacity: '1'}, 'slow');
+
+        $("#26").hide();        
 
 		$('html, body').animate({
     	scrollTop: 480}, 800);
@@ -902,6 +1004,8 @@ $(document).ready(function(){
             zIndex: '0',
         }, 'slow');
 
+        $("#26").show();
+
     $('html, body').animate({
     scrollTop: 1075}, 800);    
         clicked = true;
@@ -909,7 +1013,7 @@ $(document).ready(function(){
       
     });
 
-    event.preventdefault()
+    // event.preventdefault()
 });
     
     	

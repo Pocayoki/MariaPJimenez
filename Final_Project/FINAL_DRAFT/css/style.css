@@ -1,24 +1,35 @@
 body{
-  background-color: black;
   margin: 0px;
   padding: 0px;
+  background-color: #d5baa5;
+}
+
+a{
+  font-size: 16px;
+  font-family: arial;
+  color: #eff5f5;
+  text-decoration: none;
+  cursor: auto;
 }
 
 .container{
-  background-color: gray;
+  
   display: block;
   position: relative;
   width: 100%;
   height: 1305px;
+  opacity: 1;
 }
 
 .header{
-  margin-top: 10px;
   margin-bottom: 15px;
   text-align: center;
-  background-color: gray;
+  background: url('../images/headerskyline.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
   padding: 15px 30px;
-  color: orange;
+  color: #d5baa5;
+  border: 5px solid #b79274;
 }
 
 
@@ -26,16 +37,47 @@ body{
   width: 200px;
   height: 200px;  
   margin: 15px;
-  background-color: orange;
+  background: url('../images/modernbuilding.jpg');
+  background-size: 400px 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
   opacity: 0.5;
-  color: black;
   font-weight: bold;
   vertical-align: center;
   position: absolute;
+  border: none;
 }
 
 .buttons:hover{
   opacity: 1;
+}
+
+#A{
+  background: url('../images/A-Agbar Tower.jpg');
+  background-size: 400px 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#B{
+  background: url('../images/Bankofamericabuilding.jpg');
+  background-size: 400px 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#C{
+  background: url('../images/ChryslerBuilding.jpg');
+  background-size: 400px 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#E{
+  background: url('../images/empirestatebuilding.jpg');
+  background-size: 400px 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #A, #F, #J, #N, #R, #V{
@@ -87,15 +129,15 @@ body{
 }
 
 
-
-
 footer{
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 5px;
   text-align: center;
-  background-color: gray;
-  padding: 15px 30px;
-  color: orange;
-  font-weight: bold;
-  font-size: 24px;
+  background: url('../images/footerkyline.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*padding: 15px 30px;*/
+  color: #d5baa5;
+  font-size: 32px;
+  font-style: italic;
+  border: 5px solid #b79274;
 }
